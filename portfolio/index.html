@@ -1,0 +1,120 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    </head>
+<body>
+
+
+<section id="about">
+   
+    <div class="sidebar">
+        <img src="images/Adobe Express - file (2).png" alt="Profile Photo">
+        <div class="contentSidebar">
+            <h3>Tetiana</h3>
+            <p>Phone: +420606591858</p>
+            <p>Email: cellwydd@gmail.com</p>
+            
+            <a href="https://drive.google.com/file/d/1xWxr29nmpYeRIpokvIYUFwfmoHk38Atw/view?usp=sharing" 
+               target="_blank" 
+               download="Tetiana_CV.pdf" 
+               class="button download-cv">
+                Download CV
+            </a>
+                
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/tetiana-horiana-891aa925b/" target="_blank">
+                    <img src="images/5296501_linkedin_network_linkedin logo_icon.png" alt="logo linkedin">
+                </a>
+                <a href="https://github.com/Tati049" target="_blank">
+                    <img src="images/287725_github_icon.png" alt="logo github">
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="about-content">
+       
+        <div class="home-text">
+            <h1>Frontend developer</h1>
+        </div>
+        
+        <h2>About Me</h2>
+        <p>
+            I am a Web developer with a passion for creating beautiful and functional web applications.  
+            My goal is to design attractive, user-friendly, and efficient interfaces.  
+            I constantly learn new things, experiment, and create designs.
+        </p>
+        <div class="about-menu">
+            <button class="tab-btn active" onclick="showTab('skills')">Skills</button>
+            <button class="tab-btn" onclick="showTab('languages')">Languages</button>
+            <button class="tab-btn" onclick="showTab('education')">Education/Additional Education</button>
+        </div>
+         
+         <div id="skills" class="tab-content active">
+            
+            <ul>
+                <li><span>JavaScript</span></li>
+                <li><span>React</span> </li>
+                <li><span>OOP</span> </li>
+                <li><span>CSS</span> </li>
+                <li><span>HTML</span> </li>
+                
+            </ul>
+         </div>
+         <div id="languages" class="tab-content">
+            
+            <ul>
+                <li><span>English:</span> B2 (upper-intermediate)</li>
+                <li><span>Chech:</span> B1 (intermediate)</li>
+                <li><span>Ukrainian:</span> native speaker</li>
+                <li><span>Russian:</span> native speaker </li>
+            </ul>
+         </div>
+         <div id="education" class="tab-content">
+            
+            <ul>
+                <li><span>2022-2026:</span> Bachelor's Degree in Computer Science</li>
+                <li><span>2024:</span> Frontend Development courses</li>
+                <li><span>2025:</span> UI/UX Design courses</li>
+            </ul>
+         </div>     
+    </div>
+
+   
+   <div class="projects-column">
+    <h2>Project</h2>
+    <div class="projects-container">
+        <a href="https://tati049.github.io/DoctorWho/" target="_blank" class="projects-box">
+        
+            <span class="projects-icon"> <img src="images/the-doctor-tardis-doctor-who-merchandise-eleventh-doctor-doctor-who-fandom-png-favpng-fxEvMuvfAQR15NryPH2zM5AY1-removebg-preview.png" alt="Logo DoctorWho"></span>
+            <h3>Doctor Who? If you know what I mean </h3>
+            <p>That is my very first project,it's not perfect, but it was made with soul</p>
+        </a>
+       <!-- 
+        <div class="projects-box">
+            <i class="projects-icon">✏️</i>
+            <h3>UI/UX DESIGN</h3>
+            <p>haushki</p>
+        </div>
+        <div class="projects-box">
+            <i class="projects-icon">📱</i>
+            <h3>App Design</h3>
+            <p>hello</p>
+        </div>
+        -->
+    </div>
+ </div>
+</section>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
